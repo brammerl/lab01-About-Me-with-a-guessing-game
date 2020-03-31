@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+  }
+  #header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+  }
+
+.column {
+    float: left;
+    width: 29%;
+    height: 800px;
+    margin: 5px;
+    border: 2px solid black;
+  }
+/* 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+   */
+
+   #info {
+       font-size: 40px;
+   }
+
+   .list-header {
+       font-size: 40px;
+   }
+
+   li {
+       font-size: 30px;
+   }
