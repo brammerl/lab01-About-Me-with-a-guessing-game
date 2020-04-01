@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    background-color: #557A95;
+  }
+  #header {
+    background-color: #B1A296;
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+  }
+
+.column {
+    float: left;
+    width: 32.5%;
+    height: 90%;
+    margin: 11px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+   #info {
+    border-radius: 20px;
+    border-radius: 20px; 
+       font-size: 40px;
+       background: #7395AE;
+       color: white;
+       padding: 10px;
+       border: invisible;
+       radius: 30px;
+   }
+
+   .list-header {
+       font-size: 50px;
+       color: white;
+       text-decoration: underline solid rgb(255, 255, 255);
+   }
+
+   li {
+       font-size: 40px;
+       color: white;
+       padding: 10px;
+   }
+
+   #monty {
+       object-fit: fill;
+   }
+
+   .button-row {
+    display: flex;
+    justify-content: center
+   }
+
+   footer {
+    background-color: #B1A296;
+    padding: 10px;
+    text-align: center;
+   }
+
+   #quiz-button {
+       padding: 10px;
+       background-color: white;
+   }
